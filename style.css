@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.head {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(img/Banner\ Image.png);
+    margin: 50px 140px;
+    border-radius: 16px;
+    max-width: 1320px;
+    height: 600px;
+}
+
+.head-sec {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather';
+
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 170px;
+}
+
+.text-font {
+    padding: 16px;
+    font-size: 72px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.list {
+
+    width: 1600px;
+    height: 7335px;
+}
+
+.section-discount {
+
+    margin: 120px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.section-comment {
+    margin: 48px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-text {
+    margin: 16px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
