@@ -45,12 +45,12 @@ header {
 .list {
     width: 82%;
     max-width: 1600px;
-  
+
 }
 
 .section-discount {
 
-    margin-top:100px;
+    margin-top: 100px;
     color: #F00;
     text-align: center;
     font-family: Inter;
@@ -92,38 +92,46 @@ header {
 
 /* Victoy section */
 
-.victory{
-
-background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(img/Vectorrr.png);
-height: 600px;
-width: 82%;
-max-width: 1320px;
-margin: 50px 140px;
-border-radius: 16px;
-height: 600px;
+.victory {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(img/Vectorrr.png);
+    height: 600px;
+    width: 82%;
+    max-width: 1320px;
+    margin: 50px 140px;
+    border-radius: 16px;
+    height: 600px;
 
 }
-.title-victory{
+
+/* mid night party */
+
+.title-victory {
     color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
-    font-style: normal;
     font-weight: 900;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px;
     letter-spacing: 7.04px;
-
+    width: 642px;
+    margin: 120px;
+    margin-bottom: 18px;
 }
 
-.content-victort{
-
+.content-victort {
     color: rgba(255, 255, 255, 0.80);
-font-family: Inter;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 166.667% */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 642px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+
+
 }
-.victory text{
+
+.victory text {
 
     color: #FFF;
     text-align: center;
@@ -133,4 +141,60 @@ line-height: 30px; /* 166.667% */
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
+    margin-left: 120px;
+
+}
+
+.victory {
+    display: flex;
+}
+
+.bg {
+    margin-right: 130px;
+    margin-top: 60px;
+
+}
+
+.join-now {
+
+    height: 600px;
+    width: 82%;
+    max-width: 1320px;
+    margin: 50px 140px;
+    border-radius: 16px;
+    height: 600px;
+background-color :linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+background-color: #ebe3e3;
+
+}
+
+
+
+.info {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+
+.info span {
+    color: #F00;
+}
+
+.btn {
+    color: #FFF;
+
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+
 }
